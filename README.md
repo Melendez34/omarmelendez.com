@@ -1,2 +1,32 @@
 # omarmelendez.com
-Personal Website
+
+Personal Website.
+
+## Acerca del Proyecto
+
+---
+
+Esta es mi pagina personal donde puedes encontrar información sobre mi perfil profesional, mis experiencias y habilidades, asi como los proyectos en los que estoy participando.
+
+## Tecnologías 🔧
+
+---
+
+- HTML 5
+- CSS 3
+- JavaScripts
+- C++
+
+## Contactos
+
+---
+
+- Linkedin [Omar Melendez ](https://www.linkedin.com/in/omar-mel-lopez/)
+
+- Github [Melendez34](https://www.github.com/Melendez34/)
+
+---
+
+**Creado con <3 por Omar Meléndez.**
+
+---
