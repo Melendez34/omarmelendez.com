@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	background: fixed linear-gradient(#15157a, #300455);
+	font-family: "Roboto Condensed", sans-serif;
+}
+.card {
+	width: 65%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.24);
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+	background-size: 100% 180px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 0.1px;
+}
+.persona {
+	background-image: url("perfil.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 185px;
+	height: 185px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+.nombre-card {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 3.5rem;
+	color: #300455;
+}
+.media-card {
+	margin-top: 30px;
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #b3a2a2;
+	display: flex;
+	justify-content: center;
+}
+.icono {
+	width: 20%;
+	height: 100%;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px;
+}
+.icono-youtube {
+	background-image: url("../youtube.svg");
+}
+.icono-github {
+	background-image: url("../github.svg");
+}
+.icono-linkedin {
+	background-image: url("../linkedin.svg");
+}
+.nav {
+	background: #0c092c;
+	height: 80px;
+	color: rgb(255, 235, 205);
+}
+.nav-logo {
+	font-size: 3rem;
+	font-weight: bolder;
+}
+.nav-contenedor {
+	display: flex;
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-label,
+.nav-input {
+	display: none;
+}
+.nav-menu {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 4rem;
+	font-size: 1.9rem;
+}
+.nav-item {
+	color: rgb(255, 235, 205);
+	text-decoration: none;
+	--clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+.nav-item::after {
+	content: "";
+	display: block;
+	background: rgb(255, 235, 205);
+	width: 90%;
+	margin-top: 4px;
+	height: 4px;
+	clip-path: var(--clippy);
+	transition: clip-path 0.2s;
+}
+.nav-item:hover {
+	--clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+@media (max-width: 700px) {
+	.card {
+		width: 390px;
+		min-height: 490px;
+	}
+	.nav-label {
+		display: block;
+		cursor: pointer;
+	}
+	.nav-menu {
+		position: fixed;
+		top: 80px;
+		bottom: 0;
+		background: right linear-gradient(#0c092c, #f00);
+		width: 100%;
+		left: 0;
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+		clip-path: circle(0 at center);
+		transition: clip-path 0.9s ease-in-out;
+	}
+	.nav-input:checked + .nav-menu {
+		clip-path: circle(100% at center);
+	}
+}
+.titulo {
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	border: 10px groove #23d60c;
+	border-radius: 25px;
+	color: rgb(255, 235, 205);
+}
+.intro {
+	font-size: 2rem;
+	margin: 20px 0;
+}
+.nombre {
+	font-size: 5rem;
+	margin-bottom: 10px;
+}
+.profesion {
+	font-size: 2rem;
+}
+.links {
+	font-size: 1.9rem;
+	margin: 20px;
+	align-items: center;
+}
+svg:hover {
+	fill: #fff;
+}
+.parrafo {
+	color: rgb(255, 235, 205);
+	font-size: 1.8rem;
+	margin: 22px 20px;
+}
+.seccion {
+	margin: 35px 25px;
+}
+.foot h2 {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
