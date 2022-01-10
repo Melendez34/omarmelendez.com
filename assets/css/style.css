@@ -171,10 +171,8 @@ svg:hover {
 	font-size: 1.8rem;
 	margin: 22px 20px;
 }
-.seccion {
-	margin: 35px 25px;
-}
-.foot h2 {
+
+.copyright h3 {
 	text-align: center;
 	color: #fff;
 	margin-bottom: 20px;
