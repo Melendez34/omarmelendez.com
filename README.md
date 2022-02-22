@@ -8,6 +8,8 @@ Personal Website.
 
 Esta es mi pagina personal donde puedes encontrar información sobre mi perfil profesional, mis experiencias y habilidades, asi como los proyectos en los que estoy participando.
 
+link: https://melendez34.github.io/omarmelendez.com/
+
 ## Tecnologías 🔧
 
 ---
@@ -16,6 +18,7 @@ Esta es mi pagina personal donde puedes encontrar información sobre mi perfil p
 - CSS 3
 - JavaScripts
 - C++
+- Java
 
 ## Contactos
 
